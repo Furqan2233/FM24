@@ -64,3 +64,11 @@ public class EmergencyContact {
     private String phoneNumber;
     private String email;
 }
+
+public class Insurance {
+    private int patientId;
+    private String provider;
+    private String policyNumber;
+    private String coverageDetails;
+    private Date expirationDate;
+}
