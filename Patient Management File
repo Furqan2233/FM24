@@ -46,3 +46,21 @@ public class MedicalHistory {
     private List<String> surgeries;
     private List<String> allergies;
 }
+
+public class Prescription {
+    private int prescriptionId;
+    private int patientId;
+    private String medicationName;
+    private String dosage;
+    private String frequency;
+    private String duration;
+}
+
+public class EmergencyContact {
+    private int contactId;
+    private int patientId;
+    private String name;
+    private String relationship;
+    private String phoneNumber;
+    private String email;
+}
