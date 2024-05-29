@@ -33,8 +33,16 @@ public class Patient {
         return contactInfo;
     }
 
-    @Override
     public String toString() {
         return "Patient[ID=" + patientId + ", Name=" + name + ", Age=" + age + ", Gender=" + gender + ", Contact Info=" + contactInfo + "]";
     }
+}
+
+
+public class MedicalHistory {
+    private int patientId;
+    private List<String> conditions;
+    private List<String> treatments;
+    private List<String> surgeries;
+    private List<String> allergies;
 }
